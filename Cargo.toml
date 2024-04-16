@@ -1,0 +1,16 @@
+[package]
+name = "CommandLib"
+version = "1.0.0"
+authors = ["LLCCH <https://github.com/LowLevelCodingCH>"]
+license-file = "LICENSE" # https://github.com/LowLevelCodingCH/LICENSES/blob/main/LLCCH%20OPEN%20LICENSE%20V1.0
+description = "A library for all sorts of stuff!"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# std is always included, if u wonder though:
+# std::io::{stdin,stdout,Write}
+# std::fs
+# std::process::Command
+# std basically
